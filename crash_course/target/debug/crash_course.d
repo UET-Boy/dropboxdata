@@ -1,0 +1,1 @@
+/home/redskull/Downloads/dropboxdata/crash_course/target/debug/crash_course: /home/redskull/Downloads/dropboxdata/crash_course/src/main.rs /home/redskull/Downloads/dropboxdata/crash_course/src/vars.rs
