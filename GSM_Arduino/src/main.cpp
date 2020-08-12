@@ -4,7 +4,7 @@
  
  #include <SoftwareSerial.h>
 
-SoftwareSerial mySerial(9, 10);
+SoftwareSerial mySerial(9, 10); //TX = Green (9) ; RX = Brown (10)
 
 void setup()
 {
@@ -24,7 +24,7 @@ void loop()
      delay(1000);  // Delay of 1 second
      mySerial.println("AT+CMGS=\"+923156561126\"\r"); // Replace x with mobile number
      delay(1000);
-     mySerial.println("Hello from module");// The SMS text you want to send
+     mySerial.println("Motor is running");// The SMS text you want to send
      delay(100);
      mySerial.println((char)26);// ASCII code of CTRL+Z for saying the end of sms to  the module 
       delay(1000);
